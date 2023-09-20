@@ -1,0 +1,42 @@
+<!-- markdownlint-disable -->
+
+# <kbd>module</kbd> `model.input`
+
+
+
+
+
+
+---
+
+## <kbd>class</kbd> `Input`
+
+
+
+
+### <kbd>method</kbd> `__init__`
+
+```python
+__init__(path, type, junit)
+```
+
+
+
+
+
+
+
+
+---
+
+### <kbd>method</kbd> `set_entity`
+
+```python
+set_entity(entity)
+```
+
+
+
+
+
+
