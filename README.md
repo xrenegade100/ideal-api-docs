@@ -4,6 +4,9 @@
 
 ## Modules
 
+- [`classifier`](./classifier.md#module-classifier)
+- [`classifier.classifier`](./classifier.classifier.md#module-classifierclassifier)
+- [`classifier.predict`](./classifier.predict.md#module-classifierpredict)
 - [`common`](./common.md#module-common)
 - [`common.Singleton`](./common.Singleton.md#module-commonsingleton)
 - [`common.enum`](./common.enum.md#module-commonenum)
@@ -20,6 +23,7 @@
 - [`model.issue`](./model.issue.md#module-modelissue)
 - [`model.project`](./model.project.md#module-modelproject)
 - [`nlp`](./nlp.md#module-nlp)
+- [`nlp.pos_tag`](./nlp.pos_tag.md#module-nlppos_tag)
 - [`nlp.pos_tagger_stanford`](./nlp.pos_tagger_stanford.md#module-nlppos_tagger_stanford)
 - [`nlp.related_terms`](./nlp.related_terms.md#module-nlprelated_terms)
 - [`nlp.splitter`](./nlp.splitter.md#module-nlpsplitter)
@@ -52,14 +56,16 @@
 - [`rule.linguistic_antipattern.transform_not_return`](./rule.linguistic_antipattern.transform_not_return.md#module-rulelinguistic_antipatterntransform_not_return)
 - [`rule.linguistic_antipattern.validate_not_confirm`](./rule.linguistic_antipattern.validate_not_confirm.md#module-rulelinguistic_antipatternvalidate_not_confirm)
 - [`service`](./service.md#module-service)
-- [`service.config_reader`](./service.config_reader.md#module-serviceconfig_reader)
 - [`service.factory`](./service.factory.md#module-servicefactory)
 - [`service.parser`](./service.parser.md#module-serviceparser)
 
 ## Classes
 
+- [`classifier.Classifier`](./classifier.classifier.md#class-classifier): Class for text classification using a pre-trained model.
+- [`predict.Predicter`](./classifier.predict.md#class-predicter)
 - [`Singleton.Singleton`](./common.Singleton.md#class-singleton)
 - [`enum.FileType`](./common.enum.md#class-filetype): Enumeration of file types.
+- [`enum.GreetIssueType`](./common.enum.md#class-greetissuetype): An enumeration.
 - [`enum.IdentifierType`](./common.enum.md#class-identifiertype): Enumeration of identifier types.
 - [`enum.LanguageType`](./common.enum.md#class-languagetype): Enumeration of programming languages.
 - [`error_handler.ErrorSeverity`](./common.error_handler.md#class-errorseverity): Enumeration representing error severity levels.
@@ -75,6 +81,7 @@
 - [`issue.Issue`](./model.issue.md#class-issue)
 - [`project.ConfigCustomFileType`](./model.project.md#class-configcustomfiletype): An enumeration.
 - [`project.Project`](./model.project.md#class-project)
+- [`pos_tag.POSType`](./nlp.pos_tag.md#class-postype): An enumeration.
 - [`pos_tagger_stanford.POSTaggerStanford`](./nlp.pos_tagger_stanford.md#class-postaggerstanford): Singleton class for interacting with the Stanford Part-of-Speech Tagger.
 - [`splitter.Splitter`](./nlp.splitter.md#class-splitter): Singleton class for splitting text.
 - [`attribute_name_type_opposite.AttributeNameTypeOpposite`](./rule.linguistic_antipattern.attribute_name_type_opposite.md#class-attributenametypeopposite)
@@ -101,9 +108,10 @@
 - [`test_nonverb_starting.TestNonVerbStarting`](./rule.linguistic_antipattern.test_nonverb_starting.md#class-testnonverbstarting)
 - [`transform_not_return.TransformNotReturn`](./rule.linguistic_antipattern.transform_not_return.md#class-transformnotreturn)
 - [`validate_not_confirm.ValidateNotConfirm`](./rule.linguistic_antipattern.validate_not_confirm.md#class-validatenotconfirm)
-- [`config_reader.ConfigReader`](./service.config_reader.md#class-configreader): Deprecated utility class for reading configuration settings.
 - [`factory.EntityFactory`](./service.factory.md#class-entityfactory): A factory class for constructing Entity objects from source code files.
 - [`parser.Parser`](./service.parser.md#class-parser): A utility class for parsing source code files using srcML.
+- [`parser.PythonParser`](./service.parser.md#class-pythonparser)
+- [`parser.Structures`](./service.parser.md#class-structures): An enumeration.
 
 ## Functions
 
@@ -130,6 +138,8 @@
 - [`util_parsing.get_class_attribute_names`](./common.util_parsing.md#function-get_class_attribute_names): Get the names of attributes for a given entity class.
 - [`util_parsing.is_boolean_type`](./common.util_parsing.md#function-is_boolean_type): Check if an identifier has a boolean data type in the context of a given entity.
 - [`util_parsing.is_test_method`](./common.util_parsing.md#function-is_test_method): Check if an identifier is a test method within a given project and entity.
+- [`pos_tag.generate_tag`](./nlp.pos_tag.md#function-generate_tag): Generate a part-of-speech (POS) tag for a given term in a specific project.
+- [`pos_tag.get_tag_text`](./nlp.pos_tag.md#function-get_tag_text): Returns the part of speech type of a given tag.
 - [`related_terms.are_antonyms`](./nlp.related_terms.md#function-are_antonyms): Check if two terms are antonyms.
 - [`related_terms.clean_text`](./nlp.related_terms.md#function-clean_text): Clean and tokenize text.
 - [`related_terms.get_synonyms`](./nlp.related_terms.md#function-get_synonyms): Get synonyms for a term based on its part-of-speech (POS).
@@ -146,3 +156,8 @@
 - [`term_list.get_validate_terms`](./nlp.term_list.md#function-get_validate_terms): Get validation terms for a project.
 - [`term_property.is_plural`](./nlp.term_property.md#function-is_plural): Check if a term is in plural form.
 - [`term_property.is_singular`](./nlp.term_property.md#function-is_singular): Check if a term is in singular form.
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._
