@@ -17,7 +17,7 @@
 ### <kbd>method</kbd> `__init__`
 
 ```python
-__init__()
+__init__(rule, identifier) → None
 ```
 
 
@@ -28,3 +28,8 @@ __init__()
 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

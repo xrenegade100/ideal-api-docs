@@ -82,7 +82,7 @@ Check if two terms are antonyms.
 ## <kbd>function</kbd> `get_synonyms`
 
 ```python
-get_synonyms(term: str, pos: str) → set[str]
+get_synonyms(term: str, pos: str)
 ```
 
 Get synonyms for a term based on its part-of-speech (POS). 
@@ -101,3 +101,8 @@ Get synonyms for a term based on its part-of-speech (POS).
  - <b>`set`</b>:  A set of synonyms for the given term and POS. 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

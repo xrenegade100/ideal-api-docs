@@ -34,3 +34,17 @@ Enumeration of identifier types. Values:  Class (int): Represents a class identi
 
 
 
+---
+
+## <kbd>class</kbd> `GreetIssueType`
+An enumeration. 
+
+
+
+
+
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

@@ -54,3 +54,8 @@ Check if a term is in plural form.
  - <b>`bool`</b>:  True if the term is in plural form, False otherwise. 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

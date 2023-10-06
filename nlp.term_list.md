@@ -254,3 +254,8 @@ Get terms related to setting data for a project.
  - <b>`list`</b>:  A list of data setting terms. 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

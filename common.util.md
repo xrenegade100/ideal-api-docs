@@ -11,7 +11,7 @@
 ## <kbd>function</kbd> `get_config_setting`
 
 ```python
-get_config_setting(section: str, name: str) → str
+get_config_setting(section: str, name: str)
 ```
 
 Retrieve a specific configuration value from a configuration file. 
@@ -116,3 +116,8 @@ Read and process input data from a CSV file.
  - <b>`List[Any]`</b>:  A list of Input objects, each representing a file and associated metadata. 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

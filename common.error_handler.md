@@ -42,3 +42,8 @@ Enumeration representing error severity levels. Values:  Warning (int): Represen
 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

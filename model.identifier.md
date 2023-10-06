@@ -5,6 +5,9 @@
 
 
 
+**Global Variables**
+---------------
+- **SRCML_LINE_COL_NUMS_XPATH**
 
 
 ---
@@ -35,7 +38,7 @@ Initialize a Class object.
 ### <kbd>method</kbd> `set_block_comment`
 
 ```python
-set_block_comment(comment: str)
+set_block_comment(comment: Optional[str])
 ```
 
 Set the block comment for the class. 
@@ -287,7 +290,7 @@ Get the method parameters as a string.
 ### <kbd>method</kbd> `set_block_comment`
 
 ```python
-set_block_comment(comment: str)
+set_block_comment(comment: Optional[str])
 ```
 
 Set the block comment for the method. 
@@ -331,7 +334,7 @@ Initialize a Variable object.
 ### <kbd>method</kbd> `get_fully_qualified_name`
 
 ```python
-get_fully_qualified_name() → str
+get_fully_qualified_name() → str | None
 ```
 
 Get the fully qualified name of the variable, including the parent method or class. 
@@ -363,7 +366,7 @@ Set the block comment for the variable.
 ### <kbd>method</kbd> `set_parent_name`
 
 ```python
-set_parent_name(parent_name)
+set_parent_name(parent_name: str)
 ```
 
 Set the parent name (method or class) to which the variable belongs. 
@@ -383,7 +386,7 @@ Represents a parameter passed to a method.
 ### <kbd>method</kbd> `__init__`
 
 ```python
-__init__(type, name, is_array, is_generic, source)
+__init__(type, name, is_array: bool, is_generic: bool, source)
 ```
 
 
@@ -398,7 +401,7 @@ __init__(type, name, is_array, is_generic, source)
 ### <kbd>method</kbd> `get_fully_qualified_name`
 
 ```python
-get_fully_qualified_name() → str
+get_fully_qualified_name() → str | None
 ```
 
 Get the fully qualified name of the parameter, including the parent method or class. 
@@ -442,3 +445,8 @@ Set the parent name (method or class) to which the parameter belongs.
  - <b>`parent_name`</b> (str):  The name of the parent method or class. 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

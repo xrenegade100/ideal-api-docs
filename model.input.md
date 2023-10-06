@@ -17,7 +17,7 @@
 ### <kbd>method</kbd> `__init__`
 
 ```python
-__init__(path, type, junit)
+__init__(path, type, junit, language: LanguageType)
 ```
 
 
@@ -40,3 +40,8 @@ set_entity(entity)
 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

@@ -33,3 +33,8 @@ Set up a logger with the specified configuration.
  - <b>`logging.Logger`</b>:  The configured logger. 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

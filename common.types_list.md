@@ -102,3 +102,8 @@ Get boolean data types for a specific programming language.
  - <b>`List[str] or None`</b>:  A list of boolean data types for the specified language,  or None if the language is not recognized. 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

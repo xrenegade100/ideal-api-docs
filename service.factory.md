@@ -33,7 +33,7 @@ __init__()
 ### <kbd>method</kbd> `construct_model`
 
 ```python
-construct_model(source_path: str, file_type, junit: bool) → Entity
+construct_model(source_path: str, file_type, junit: bool) → Optional[Entity]
 ```
 
 Construct an Entity object from a source code file. 
@@ -53,3 +53,8 @@ Construct an Entity object from a source code file.
 > VSCode complains about types because of `Entity`'s constructor setting all attributes to None, and it is useless since that is standard Python behavior. 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

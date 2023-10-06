@@ -5,13 +5,16 @@
 
 
 
+**Global Variables**
+---------------
+- **SRCML_URL**
 
 ---
 
 ## <kbd>function</kbd> `get_class_attribute_names`
 
 ```python
-get_class_attribute_names(entity_class: Entity) → List[str]
+get_class_attribute_names(entity_class: Class) → List[str]
 ```
 
 Get the names of attributes for a given entity class. 
@@ -34,7 +37,7 @@ Get the names of attributes for a given entity class.
 ## <kbd>function</kbd> `get_all_items_in_class`
 
 ```python
-get_all_items_in_class(entity_class: Entity) → List[str]
+get_all_items_in_class(entity_class: Class) → List[str]
 ```
 
 Get all items (class, attributes, methods, variables, and parameters) in a given entity class. 
@@ -57,7 +60,7 @@ Get all items (class, attributes, methods, variables, and parameters) in a given
 ## <kbd>function</kbd> `get_all_class_fields`
 
 ```python
-get_all_class_fields(entity_class: Entity)
+get_all_class_fields(entity_class: Class)
 ```
 
 Get all class fields (attributes, method variables, and method parameters) in a given entity class. 
@@ -183,3 +186,8 @@ Check if an identifier has a boolean data type in the context of a given entity.
  - <b>`bool`</b>:  True if the identifier has a boolean data type; False otherwise. 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

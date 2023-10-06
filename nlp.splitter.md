@@ -20,16 +20,6 @@ This class provides methods for splitting text into word tokens, splitting names
  
  - <b>`project`</b> (Project):  The Project instance with all necessary configurations in it. 
 
-### <kbd>method</kbd> `__init__`
-
-```python
-__init__()
-```
-
-
-
-
-
 
 
 
@@ -71,32 +61,6 @@ Unlike other methods in this class, 'split_heuristic' uses a heuristic approach 
 
 ---
 
-### <kbd>method</kbd> `split_ronin`
-
-```python
-split_ronin(name)
-```
-
-Split a name using the 'ronin' splitting method. 
-
-'ronin' is a specific splitting method used to split names. 
-
-
-
-**Args:**
- 
- - <b>`name`</b> (str):  The name to split. 
-
-
-
-**Returns:**
- 
- - <b>`list`</b>:  A list containing the split parts of the name. 
-
-Note: Find out more about ronin here -> https://github.com/casics/spiral/blob/master/README.md 
-
----
-
 ### <kbd>method</kbd> `split_word_tokens`
 
 ```python
@@ -118,3 +82,8 @@ Split text into word tokens.
  - <b>`list`</b>:  A list of word tokens. 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._

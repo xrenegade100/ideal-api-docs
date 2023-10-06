@@ -32,7 +32,7 @@ __init__()
 ### <kbd>method</kbd> `analyze`
 
 ```python
-analyze(project, entity)
+analyze(project, entity: Entity)
 ```
 
 
@@ -40,3 +40,8 @@ analyze(project, entity)
 
 
 
+
+
+---
+
+_This file was automatically generated via [lazydocs](https://github.com/ml-tooling/lazydocs)._
